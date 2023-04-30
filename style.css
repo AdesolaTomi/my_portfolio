@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+
+  }
+  
+header {
+    background-color: teal;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+
+nav {
+    background-color: wheat;
+    color: #fff;
+    padding: 10px;
+  }
+  
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+nav a:hover {
+    color: red;
+  }
+  
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+section {
+    margin-bottom: 50px;
+  }
+  
+section h2 {
+    font-size: 28px;
+  }
+ul {
+    margin-left: 20
+  }
+
+.skills{
+    text-align: center;
+}
+.myprojectlinks{
+color:white;
+padding: 30px;
+text-align: center;
+}
+
+#about-me{
+    background-color: teal;
+    color:white;
+    width:100%;
+    padding: 30px;
+
+  }
+
+#skills{
+    background-color: teal;
+    color:white;
+    padding: 30px;
+
+}
+
+#contact{
+    background-color: teal;
+    width:100%;
+    padding: 30px;
+}
+.myname{
+    width: 100%;
+}
+/* input{
+    width: 70%;
+} */
+
+.formheader{
+    color: white;
+    text-align: center;
+}
+#mylabel{
+    width: 50px;
+    color: white;
+    font-size: 20px;
+}
+
+.textb{
+    width: 100%;
+}
+.sendingmessage{
+    width: 100%;
+    padding-top: 30px;
+    margin-top: 20px;
+}
+.sendmessagelabel{
+    color:white;
+    font-size: 30px;
+    font-family: "Montserrat";
+}
+
+.btn{
+    color:teal;
+    background-color: white;
+    padding:20px;
+    font-size:20px;
+}
+.btn:hover{
+    font-size: 30px;
+    background-color: brown;
+    color:white;
+    transition:2s;
+}
+#projects{
+    background-color: teal;
+    color: white;
+    padding: 40px;
+}
+
+.myname{
+    font-size: 30px;
+}
