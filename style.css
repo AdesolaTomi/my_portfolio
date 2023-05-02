@@ -13,14 +13,14 @@ body {
   }
   
 header {
-    background-color: teal;
+    background-color: grey;
     color: #fff;
     text-align: center;
     padding: 20px;
   }
 
 nav {
-    background-color: wheat;
+    background-color: gray;
     color: #fff;
     padding: 10px;
   }
@@ -74,22 +74,22 @@ text-align: center;
 }
 
 #about-me{
-    background-color: teal;
+    background-color: grey;
     color:white;
     width:100%;
     padding: 30px;
-
+    text-align: center;
   }
 
 #skills{
-    background-color: teal;
+    background-color: gray;
     color:white;
     padding: 30px;
 
 }
 
 #contact{
-    background-color: teal;
+    background-color: gainsboro;
     width:100%;
     padding: 30px;
 }
@@ -101,12 +101,12 @@ text-align: center;
 } */
 
 .formheader{
-    color: white;
+    color: grey;
     text-align: center;
 }
 #mylabel{
     width: 50px;
-    color: white;
+    color: grey;
     font-size: 20px;
 }
 
@@ -119,14 +119,14 @@ text-align: center;
     margin-top: 20px;
 }
 .sendmessagelabel{
-    color:white;
+    color: grey;
     font-size: 30px;
     font-family: "Montserrat";
 }
 
 .btn{
-    color:teal;
-    background-color: white;
+    color: white;
+    background-color: gray;
     padding:20px;
     font-size:20px;
 }
@@ -137,7 +137,7 @@ text-align: center;
     transition:2s;
 }
 #projects{
-    background-color: teal;
+    background-color: grey;
     color: white;
     padding: 40px;
 }
@@ -145,3 +145,42 @@ text-align: center;
 .myname{
     font-size: 30px;
 }
+
+.home {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px 10% 0;
+  }
+  
+  .home-content{
+      max-width: 500px;
+      margin-left: -30px;
+  }
+  
+  .home-content h1{
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.2;
+  }
+  
+  .home-content h3 {
+  font-size: 32px;
+  font-weight: 700;
+  }
+  
+  .home-content p {
+  font-size: 16px;
+  }
+  
+  .home-img{
+  width: 410px;
+  height: 410px;
+  }
+  
+  img {
+  width: 300px;
+  height: 300px;
+  }
